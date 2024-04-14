@@ -1,0 +1,12 @@
+#welcome{
+    outline-width: 5px;
+    outline-color: black;
+    text-align: center;
+    color: blue;
+}
+#h1{
+    outline-width: 5px;
+    outline-color: black;
+    text-align: center;
+    color: yellow;
+}
