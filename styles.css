@@ -1,17 +1,18 @@
 #welcome{
     font-size:"40";
-    outline-width: 5px;
+    outline-width: 10px;
     outline-color: black;
     text-align: center;
     color: blue;
 }
 #h1{
     font-size:"30";
-    outline-width: 5px;
+    outline-width: 10px;
     outline-color: black;
     text-align: center;
-    color: yellow;
+    color: black;
 }
 #gistlink, #botlink {
-    font-size:"20"
+    font-size:"20";
+    text-align:center;
 }
