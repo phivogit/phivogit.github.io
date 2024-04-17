@@ -1,4 +1,35 @@
 <!doctype html>
+<style>
+    .button{
+        font-size:20px;
+        border:black;
+        background-color:white;
+    }
+    .button1{
+        font-size:30px;
+        background-color:white;
+        color:black;
+        border:1px black;
+        align:left;
+    }
+    .button1:hover{
+        font-size:35px;
+        color:white;
+        background-color:black;
+    }
+    .button2{
+        font-size:30px;
+        background-color:white;
+        color:black;
+        border:1px black;
+        align:right;
+    }
+    .button2:hover{
+        font-size:35px;
+        color:white;
+        background-color:black;
+    }
+</style>
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
@@ -8,6 +39,8 @@
         <p id="h1">Useful links</p>
         <div class="usefullinks">
             <a id="gistlink" href="https://gist.github.com/phivogit">1. My gists</a> <br> <a id="botlink" href="https://docs.google.com/sheets">2. Google Sheets</a>
+            <button class="button button1" onclick="location:'https://gist.github.com/phivogit'">My Gists</button>
+            <button class="button button1" onclick="location:'https://docs.google.com/sheets'">Google Sheets</button>
         </div>
     </body>
 </html>
