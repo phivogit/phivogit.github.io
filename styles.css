@@ -12,7 +12,7 @@
     text-align: center;
     color: black;
 }
-#gistlink, #botlink {
+.usefullinks {
     font-size:"20";
     text-align:center;
 }
