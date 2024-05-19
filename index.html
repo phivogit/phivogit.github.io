@@ -31,9 +31,20 @@
         color:white;
         background-color:black;
     }
+    #updatestatus{
+        font-size: 20px;
+        color:black;
+        outline-width: 5px;
+        outline-color: red;
+    }
 </style>
 </head>
 <html>
+    <script>
+        function troll(id) {
+            document.getElementById("id").innerHTML = "HAHAHAHAHA";
+        }
+    </script>
     <head>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -44,6 +55,6 @@
             <button class="button button1" onclick="window.location.href='https://gist.github.com/phivogit';">My Gists</button>
             <button class="button button1" onclick="window.location.href='https://docs.google.com/sheets';">Google Sheets</button>
         </div>
-        <p id="updatestatus">Updated4</p>
+        <p id="updatestatus" onmouseover="troll(updatestatus)">Updated5</p>
     </body>
 </html>
